@@ -212,6 +212,31 @@ main{
     border-bottom: 1px solid #f2f2f2;
 }
 
+#blogs{
+    margin-bottom: 8rem;
+}
+#blogs ul {
+    list-style: none;
+    padding: 0;
+}
+#blogs ul li::before{
+    content: '';
+    display: inline-block;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    background-color: var(--secondary-tone);
+    margin: 0 .2rem;
+    vertical-align: 12%;
+}
+#blogs a{
+    text-decoration: none;
+    color:#333;
+    font-weight: 600;
+}
+#blogs a:hover{
+    color: black;
+}
 .button-container{
     text-align: center;
     padding: .5rem 0rem 0rem;
