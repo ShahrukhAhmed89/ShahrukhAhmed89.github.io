@@ -219,6 +219,9 @@ main{
     list-style: none;
     padding: 0;
 }
+#blogs ul li{
+    margin: 1rem 0;
+}
 #blogs ul li::before{
     content: '';
     display: inline-block;
